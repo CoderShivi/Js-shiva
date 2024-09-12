@@ -48,3 +48,12 @@ const yourName=()=>{
 yourName()
 const addno=(a,b)=>  (a+b)
 console.log(addno(1,2))
+
+// IIFE function 
+(function shiv(){ // It is known as named IIFE
+console.log("Hello world")
+})()
+
+((name)=>{ // It is known as unnamed IIFE
+console.log(`Hello ${name}`)
+})(Shiva)
