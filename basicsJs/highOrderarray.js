@@ -44,6 +44,6 @@ function printME(item){
 }
 lang.forEach(printME)
 
-lang.forEach((item,index,arr)=>{
+lang.forEach((item,index,arr)=>{ // ForEach not return any value
     console.log(item,index,arr)
 })
