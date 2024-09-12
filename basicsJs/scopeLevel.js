@@ -45,15 +45,15 @@ const yourName=()=>{
     let name ="Shivani"
     console.log(this) // It give Empty
 }
-yourName()
-const addno=(a,b)=>  (a+b)
-console.log(addno(1,2))
+//yourName()
+// const addno=(a,b)=>  (a+b)
+// console.log(addno(1,2))
 
 // IIFE function 
-(function shiv(){ // It is known as named IIFE
-console.log("Hello world")
-})()
+( function shiv(){    // It is known as named IIFE
+console.log("Hello World")
+})(); 
 
-((name)=>{ // It is known as unnamed IIFE
-console.log(`Hello ${name}`)
-})(Shiva)
+// ((name)=>{ // It is known as unnamed IIFE
+// console.log(`Hello ${name}`)
+// })(Shiva);
